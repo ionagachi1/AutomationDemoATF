@@ -28,7 +28,6 @@ public class LoginSteps{
         logger.info("Loaded page: {}", actualLoginPageTitle);
         Assert.assertEquals("The page "+ expectedLoginPageTitle+"  could NOT be loaded",expectedLoginPageTitle, actualLoginPageTitle);
 
-        System.out.println("Commit 1..................");
     }
 
     @When("the user provides valid login credentials: {string} and {string}")
