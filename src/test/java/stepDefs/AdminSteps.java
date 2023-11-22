@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import static org.awaitility.Awaitility.*;
+import static org.awaitility.Awaitility.await;
 
 public class AdminSteps {
 
@@ -42,7 +42,7 @@ public class AdminSteps {
 
         logger.info("Loaded page: {}", actualAdminPageTitle);
         Assert.assertEquals("The page "+ expectedAdminPageTitle+"  could NOT be loaded", expectedAdminPageTitle, actualAdminPageTitle);
-
+        System.out.println("The 1st push on Github");
     }
 
     @Given("the user navigates to the Admin page using URL")
