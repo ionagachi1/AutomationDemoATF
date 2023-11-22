@@ -45,7 +45,6 @@ public class AdminSteps {
         System.out.println("The 1st push on Github");
         System.out.println("The 2nd push on Github");
         System.out.println("The 3rd push on Github");
-        System.out.println("Just Commit 1");
     }
 
     @Given("the user navigates to the Admin page using URL")
