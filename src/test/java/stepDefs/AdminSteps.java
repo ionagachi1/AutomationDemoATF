@@ -43,6 +43,7 @@ public class AdminSteps {
         logger.info("Loaded page: {}", actualAdminPageTitle);
         Assert.assertEquals("The page "+ expectedAdminPageTitle+"  could NOT be loaded", expectedAdminPageTitle, actualAdminPageTitle);
         System.out.println("The 1st push on Github");
+        System.out.println("The 2nd push on Github");
     }
 
     @Given("the user navigates to the Admin page using URL")
