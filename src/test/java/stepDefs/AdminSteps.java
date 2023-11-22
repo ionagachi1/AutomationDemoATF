@@ -44,6 +44,7 @@ public class AdminSteps {
         Assert.assertEquals("The page "+ expectedAdminPageTitle+"  could NOT be loaded", expectedAdminPageTitle, actualAdminPageTitle);
         System.out.println("The 1st push on Github");
         System.out.println("The 2nd push on Github");
+        System.out.println("The 3rd push on Github");
     }
 
     @Given("the user navigates to the Admin page using URL")
